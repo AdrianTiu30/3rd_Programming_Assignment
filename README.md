@@ -10,7 +10,7 @@
 ```
 import pandas as pd
 
-# Load dataset
+# Load DataSet
 cars = pd.read_csv('cars.csv')
 cars
 
@@ -32,6 +32,9 @@ cars.tail()
 ### Code:
 ```
 import pandas as pd
+
+# Load DataSet
+cars = pd.read_csv('cars.csv')
 
 # Display first 5 rows with odd numbered columns
 cars.iloc[:5, 1::2]
