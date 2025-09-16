@@ -21,7 +21,7 @@ cars.head()
 cars.tail()
 ```
 
-## Problem 2: ubsetting, slicing and indexing operations
+## Problem 2: Subsetting, Slicing and Indexing Operations
 
 ### Task:
 1. Use `cars.iloc[:5, 1::2]` to display the first five rows with odd-numbered columns
