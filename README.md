@@ -24,9 +24,9 @@ cars.tail()
 ## Problem 2: ubsetting, slicing and indexing operations
 
 ### Task:
-1. `cars.iloc[:5, ::2]` to display the first five rows with odd-numbered columns of cars
-2. Use `.loc` to display the row that contains 'Model' of 'Mazda RX4'
-3. Use `.loc` to display the number of cylinders the car model 'Camaro Z28' have
+1. Use `cars.iloc[:5, ::2]` to display the first five rows with odd-numbered columns
+2. Use `.loc[cars['Model']=='Mazda RX4']` to display the row that contains 'Model' of 'Mazda RX4'
+3. Use `.loc[cars['Model']=='Camaro Z28', ['cyl']]` to display the number of cylinders the car model 'Camaro Z28' have
 4. Use `.loc` and `.isin()` to determine the number of cylinders and what gear type does the car models ‘Mazda RX4’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 
 ### Code:
