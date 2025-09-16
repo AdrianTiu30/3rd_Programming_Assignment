@@ -10,7 +10,7 @@
 ```
 import pandas as pd
 
-# Load DataSet
+# Load and display DataSet
 cars = pd.read_csv('cars.csv')
 cars
 
