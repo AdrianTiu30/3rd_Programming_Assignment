@@ -51,3 +51,5 @@ cars_models = ['Mazda RX4', 'Ford Pantera L', 'Honda Civic']
 cars.loc[cars['Model'].isin(cars_models), ['cyl', 'gear']]
 ```
 ```iloc[:5, 1::2]``` selects the first 5 rows and slices the columns to display only odd-numbered columns. ```.loc[cars['Model']=='Mazda RX4']``` filters the DataFrame to display only the row where the model is Mazda RX4. ```.loc[cars['Model']=='Camaro Z28', ['cyl']]``` retrieves the cylinder count for the model Camaro Z28. ```.isin()``` is used to check membership, allowing multiple models to be filtered at once. This retrieves both the cylinders and gear type for the models Mazda RX4, Ford Pantera L, and Honda Civic.
+
+# --Version 2--
